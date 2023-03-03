@@ -1,0 +1,81 @@
+{
+  "group": [
+    {
+      "name": "open-tv",
+      "type": "cn.fc.opentv.config.OpenTvProperties",
+      "sourceType": "cn.fc.opentv.config.OpenTvProperties"
+    },
+    {
+      "name": "open-tv.proxy",
+      "type": "cn.fc.opentv.config.OpenTvProperties.ProxyConfig",
+      "description": "qq open tv proxy"
+    }
+  ],
+  "properties": [
+    {
+      "name": "open-tv.domain",
+      "type": "java.lang.String",
+      "description": "qq open tv domain"
+    },
+    {
+      "name": "open-tv.appid",
+      "type": "java.lang.String",
+      "description": "qq open tv appid"
+    },
+    {
+      "name": "open-tv.appkey",
+      "type": "java.lang.String",
+      "description": "qq open tv appkey"
+    },
+    {
+      "name": "open-tv.qua",
+      "type": "java.lang.String",
+      "description": "qq open tv QU-A"
+    },
+    {
+      "name": "open-tv.vendor-platform",
+      "type": "java.lang.String",
+      "description": "qq open tv vendor-platform"
+    },
+    {
+      "name": "open-tv.vippkg",
+      "type": "java.lang.String",
+      "description": "qq open tv vippkg"
+    },
+    {
+      "defaultValue": 1,
+      "name": "open-tv.version",
+      "type": "java.lang.Integer",
+      "description": "qq open tv version"
+    },
+    {
+      "defaultValue": "json",
+      "name": "open-tv.format",
+      "type": "java.lang.Integer",
+      "description": "qq open tv format"
+    },
+    {
+      "defaultValue": "3m",
+      "name": "open-tv.connect-timeout",
+      "type": "java.time.Duration",
+      "description": "qq open tv connect-timeout"
+    },
+    {
+      "defaultValue": "3m",
+      "name": "open-tv.read-timeout",
+      "type": "java.time.Duration",
+      "description": "qq open tv read-timeout"
+    }
+  ,
+    {
+      "name": "open-tv.proxy.host",
+      "type": "java.lang.String",
+      "description": "qq open tv proxy host"
+    },
+    {
+      "name": "open-tv.proxy.port",
+      "type": "java.lang.Integer",
+      "description": "qq open tv proxy port"
+    }
+  ]
+}
